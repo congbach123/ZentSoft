@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-weight: ;
+  font-weight: bold;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
 }
@@ -185,6 +185,8 @@ form button {
 }
 .main-text {
   position: absolute;
+
+  font-weight: bold;
   color: grey;
   top: 30%;
   left: 10%;
@@ -210,10 +212,69 @@ form button {
   border: none;
   border-radius: 4px;
 }
+
+/* discount notice */
+.discount-notice {
+  width: 100vw;
+  height: 85vh;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr; /*hoac repeat(3,1fr) */
+  grid-template-rows: 1fr 1fr;
+
+  gap: 30px;
+
+  padding: 100px 200px;
+  box-sizing: border-box;
+}
+
+.discount-notice div {
+  padding: 20px;
+
+  color: gray;
+  font-weight: bold;
+
+  border: 1px solid black;
+
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.discount-notice div h3 {
+  color: black;
+}
+.discount-verticle {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.discount-verticle {
+  background-image: url(image/discount-verticle.jpg);
+}
+
+.discount-box-1 {
+  background-image: url(image/discount-box-1.jpg);
+}
+.discount-box-1 p:first-child {
+  color: rgb(248, 44, 92);
+}
+.discount-box-2 {
+  background-image: url(image/discount-box-2.jpg);
+}
+.discount-horizontal {
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+  background-image: url(image/discount-horizontal.jpg);
+}
+
 .bx-bx-search {
   width: auto;
 }
-
+.bx {
+  color: rgb(248, 44, 92);
+}
 .checked {
   color: orange;
 }
