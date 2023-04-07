@@ -5,10 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <title>Wensite</title>
   </head>
   <body>
     <header>
+      <div class="welcome">
+        <div class="welcome-first">
+          <ul>
+            <li>Welcome to Netmark online Store</li>
+            <li><a href="#">Track Your Order</a></li>
+            <li>demo@gmail.com</li>
+          </ul>
+        </div>
+        <div class="welcome-second">
+          <select name="language" id="lang">
+            <option value="english">English</option>
+          </select>
+          <select name="currency" id="currency">
+            <option value="us-dollar">$ US Dollar</option>
+          </select>
+        </div>
+      </div>
+
       <nav class="primary-nav">
         <a href="#" class="logo"><img src="image/logo.png" alt="" /></a>
         <div class="search-bar">
@@ -23,25 +58,526 @@
               placeholder="What products are you looking for?"
             />
             <button type="submit">
-              <a href="#" class="bx bx-search">
+              <a href="#" class="bx-bx-search">
                 <img src="image/search-logo.png" alt="" />
               </a>
             </button>
           </form>
         </div>
+        <nav class="nav-user">
+          <div class="user-account">
+            <a href="#"><img src="image/user.png" alt="" /></a>
+            <a href="#">My Account</a>
+          </div>
+          <div class="user-wish-list">
+            <a href="#"><img src="image/heart.png" alt="" /></a>
+            <a href="#">Wish List</a>
+          </div>
+          <div class="user-cart">
+            <a href="#"><img src="image/cart.png" alt="" /></a>
+            <a href="#">My Cart</a>
+          </div>
+        </nav>
       </nav>
+
       <nav class="secondary-nav">
         <ul class="navmenu">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Shop</a></li>
+          <li>
+            <select name="" id="">
+              <option value="home-select">Home</option>
+            </select>
+          </li>
+          <li>
+            <select name="" id="">
+              <option value="shop-select">Shop</option>
+            </select>
+          </li>
           <li><a href="#">About US</a></li>
-          <li><a href="#">Blog</a></li>
+          <li>
+            <select name="" id="">
+              <option value="blog-select">Blog</option>
+            </select>
+          </li>
           <li><a href="#">Categories</a></li>
-          <li><a href="#">Pages</a></li>
-          sadasd
+          <li>
+            <select name="" id="">
+              <option value="pages-select">Page</option>
+            </select>
+          </li>
+
           <li><a href="#">Contact</a></li>
         </ul>
+
+        <div class="special-offer">
+          <img src="image/bulb.png" alt="" />
+          <p>Special up to 60% Off all item</p>
+        </div>
       </nav>
     </header>
+
+    <!-- END OF HEADER -->
+
+    <section class="main-home">
+      <img src="image/main-home.jpg" alt="" />
+      <div class="main-text">
+        <h3>New Collection</p>
+          <br>
+        <h1>
+          The Great Fashion <br />
+          Collection 2022
+        </h1>
+        <br>
+        <p>Up To 40% Off Final Sale Items. <br />Caught in the Moments</p>
+        <button>Show Collection &rarr;</button>
+      </div>
+      
+    </section>
+
+    <section class="discount-notice">
+      <div>
+        <a href="#"><img src="" alt="" /></a>
+        <p>17% Discount</p>
+        <h4>Spring Collection <br />Style To</h4>
+        <p>View Discounts &rarr;</p>
+      </div>
+
+      <div>
+        <a href="#"><img src="" alt="" /></a>
+        <p>Shop Women</p>
+        <h4>Up to 70% Off & <br />Free Shipping</h4>
+        <p>View Discounts &rarr;</p>
+      </div>
+
+      <div>
+        <a href="#"><img src="" alt="" /></a>
+        <p>Shop Women</p>
+        <h4>Free Shipping Over <br />Order $120</h4>
+        <p>View Discounts &rarr;</p>
+      </div>
+
+      <div>
+        <a href="#"><img src="" alt="" /></a>
+        <p>25% Discount</p>
+        <h4>Leather Saddle <br />Bag Style</h4>
+        <p>View Discounts &rarr;</p>
+      </div>
+    </section>
+
+    <section class="new-product">
+      <h4>New Products</h4>
+      <nav class="new-product-nav">
+        <button class="featured">Featured</button>
+        <button class="trending">Trending</button>
+        <button class="new-arrival">New Arrival</button>
+      </nav>
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="good-deal">
+      <img src="" alt="" />
+      <div>
+        <p>Hurry up and Get 25% Discount</p>
+        <h4>Deals Of The Day</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="time-deal">
+          <div>
+            <h5>-183</h5>
+            <p>Days</p>
+          </div>
+
+          <div>
+            <h5>-11</h5>
+            <p>Hrs</p>
+          </div>
+
+          <div>
+            <h5>-12</h5>
+            <p>Mins</p>
+          </div>
+
+          <div>
+            <h5>-12</h5>
+            <p>Secs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="best-seller">
+      <h4>Our Best Seller</h4>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="products">
+        <div class="products-image">
+          <a href="#"><img src="" alt="" /></a>
+          <img src="" alt="" class="sale-flag" />
+        </div>
+        <div class="products-info">
+          <p class="products-type"></p>
+          <h4 class="products-name"></h4>
+          <p class="products-price"></p>
+          <div class="review-stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+
+          <div class="products-button">
+            <button>+ Add to Cart</button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
