@@ -4,6 +4,7 @@
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+  /* font-size: 13px; */
 }
 
 .welcome {
@@ -342,21 +343,36 @@ h1 {
 }
 
 .new-product .products {
-  padding: 20px;
+  /* padding: 20px; */
 
   color: gray;
   font-weight: bold;
 
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
   background-size: 100% 100%;
   background-position: center;
 }
-
+.products {
+  display: flex;
+  flex-direction: column;
+}
 .products-image {
-  height: 80%;
+  position: relative;
+  height: 70%;
   background-size: 100% 100%;
   background-position: center;
+}
+
+.products-flag {
+  position: absolute;
+  top: 8%;
+  left: 5%;
+  padding: 2%;
+
+  background-color: rgb(248, 44, 92);
+  border-radius: 10px 0px;
+  color: white;
 }
 
 #products-1 .products-image {
@@ -388,4 +404,99 @@ h1 {
 }
 #products-10 .products-image {
   background-image: url(image/product-10.png);
+}
+
+.products-type {
+  font-size: 13px;
+}
+
+.products-name {
+  color: #000;
+}
+.products-price {
+  font-size: 13px;
+}
+.products-info > * {
+  padding: 1% 0;
+}
+
+.products-button {
+  display: flex;
+
+  gap: 15px;
+}
+.products-button button:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  min-width: 50%;
+  /* text-align: center; */
+}
+
+.products button {
+  height: 5vw;
+  width: 5vh;
+  max-width: 5vw;
+  max-height: 5vh;
+
+  padding: 10px;
+
+  background: none;
+  border: 1px solid grey;
+}
+.bx-cart {
+  font-size: 2.5em;
+  color: grey;
+}
+i.bx-heart {
+  font-size: 1.5em;
+  color: gray;
+}
+i.fa-eye {
+  font-size: 1.5em;
+  color: gray;
+}
+
+.good-deal {
+  width: 100vw;
+  height: 80vh;
+  box-sizing: border-box;
+  padding: 100px 200px;
+
+  position: relative;
+  /* margin: 20px 200px; */
+}
+/* .good-deal div img{
+  object-fit: cover;
+} */
+.good-deal img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+.good-deal-content {
+  /* padding: 20px; */
+  padding: inherit;
+  color: gray;
+  font-weight: bold;
+  /* border: 1px solid black; */
+
+  background-size: 100% 100%;
+  background-position: center;
+
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.good-deal-content h1 {
+  text-align: left;
+  color: #000;
+  position: ;
+}
+.good-deal-content p:first-child {
+  color: rgb(248, 44, 92);
 }
