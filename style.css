@@ -278,3 +278,114 @@ form button {
 .checked {
   color: orange;
 }
+
+h1 {
+  text-align: center;
+  position: relative;
+}
+
+.title-underline {
+  text-align: center;
+  font-size: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  color: rgb(248, 44, 92);
+
+  max-width: 300px;
+}
+
+.title-underline:before {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background-color: rgb(248, 44, 92);
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.title-underline:after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background-color: rgb(248, 44, 92);
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.new-product-nav {
+  text-align: center;
+}
+.new-product-nav button {
+  margin: 20px 20px;
+  background: none;
+  border: none;
+}
+
+.new-product {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+
+  grid-template-columns: repeat(5, 1fr); /*hoac repeat(3,1fr) */
+  grid-template-rows: 1fr 1fr;
+
+  gap: 30px;
+
+  padding: 20px 200px;
+  box-sizing: border-box;
+}
+
+.new-product .products {
+  padding: 20px;
+
+  color: gray;
+  font-weight: bold;
+
+  border: 1px solid black;
+
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.products-image {
+  height: 80%;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+#products-1 .products-image {
+  background-image: url(image/product-1.png);
+}
+#products-2 .products-image {
+  background-image: url(image/product-2.png);
+}
+#products-3 .products-image {
+  background-image: url(image/product-3.png);
+}
+#products-4 .products-image {
+  background-image: url(image/product-4.png);
+}
+#products-5 .products-image {
+  background-image: url(image/product-5.png);
+}
+#products-6 .products-image {
+  background-image: url(image/product-6.png);
+}
+#products-7 .products-image {
+  background-image: url(image/product-7.png);
+}
+#products-8 .products-image {
+  background-image: url(image/product-8.png);
+}
+#products-9 .products-image {
+  background-image: url(image/product-9.png);
+}
+#products-10 .products-image {
+  background-image: url(image/product-10.png);
+}
