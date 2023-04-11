@@ -461,31 +461,38 @@ i.fa-eye {
 .good-deal {
   width: 100vw;
   height: 80vh;
-  box-sizing: border-box;
   padding: 100px 200px;
+  /* margin: 20px 200px; */
+}
+.good-deal-inside {
+  height: 100%;
+  width: auto;
+  padding: 1em 1em;
+  box-sizing: border-box;
+  display: flex;
+  background-size: 100% 100%;
+  background-position: center;
 
   position: relative;
-  /* margin: 20px 200px; */
+  object-fit: cover;
+  background-image: url(image/deal-offer.jpg);
 }
 /* .good-deal div img{
   object-fit: cover;
 } */
-.good-deal img {
+/* .good-deal img {
   width: 100%;
   height: 100%;
-
+  display: flex;
   object-fit: contain;
-}
+} */
 
 .good-deal-content {
   /* padding: 20px; */
-  padding: inherit;
+  /* padding: inherit; */
   color: gray;
   font-weight: bold;
   /* border: 1px solid black; */
-
-  background-size: 100% 100%;
-  background-position: center;
 
   position: absolute;
   top: 10%;
@@ -499,4 +506,70 @@ i.fa-eye {
 }
 .good-deal-content p:first-child {
   color: rgb(248, 44, 92);
+}
+
+.bx-play-circle {
+  color: rgb(248, 44, 92);
+  position: absolute;
+  /* padding: inherit; */
+  display: block;
+  top: 50%;
+  right: 30%;
+  font-size: 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.until {
+  /* margin: 25px; */
+  /* padding: inherit; */
+  position: absolute;
+  top: 40%;
+  left: 5%;
+
+  display: grid;
+  /* grid-template-columns: repeat(7, 1fr); */
+  grid-template-columns:
+    1fr fit-content(1em) 1fr fit-content(1em) 1fr fit-content(1em)
+    1fr;
+  /* grid-template-rows: 1fr; */
+  gap: 1em;
+
+  border-radius: 5px;
+
+  /* padding: 1em; */
+}
+
+.until-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+  background: #fff;
+
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.until-component:nth-child(even) {
+  background: none;
+  box-shadow: none;
+}
+
+.until-unit {
+  color: grey;
+  padding-bottom: 1em;
+}
+
+.until-numeric {
+  padding: 0.5em 0.5em;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.double-dot {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
 }
