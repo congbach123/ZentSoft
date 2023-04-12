@@ -33,7 +33,10 @@ a {
   width: 1200px;
   max-width: calc(100% - 2.5vw);
   margin-left: auto;
-  margin-right: auto;c
+  margin-right: auto;
+}
+.title {
+  margin-bottom: 2vh;
 }
 /* ---------HEADER------------- */
 .header {
@@ -377,6 +380,7 @@ a {
 .main-text h1 {
   color: black;
 }
+
 .main-text button {
   color: #fff;
   margin: 15px 10px;
