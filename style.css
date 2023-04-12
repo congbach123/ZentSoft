@@ -31,9 +31,9 @@ a {
 }
 .main-content {
   width: 1200px;
-  max-width: calc(100% - 48px);
+  max-width: calc(100% - 2.5vw);
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;c
 }
 /* ---------HEADER------------- */
 .header {
@@ -124,16 +124,21 @@ a {
 .body-info .logo {
   display: flex;
   cursor: pointer;
+  align-items: center;
 }
 
 .body-info .logo i {
   color: var(--primary-color);
+  font-size: 3rem;
 }
 
 .body-info .logo-title {
   font-weight: 600;
   font-size: 1.8rem;
   margin-left: 5px;
+  height: fit-content;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .body-info .logo-title:hover {
