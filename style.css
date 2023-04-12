@@ -861,8 +861,8 @@ i.fa-eye {
   font-size: 2.5rem;
 }
 .client {
-  width: 100vw;
-  height: 50vh;
+  min-width: 100vw;
+  min-height: 50vh;
   padding: 0 200px;
   font-size: 1.5rem;
 }
