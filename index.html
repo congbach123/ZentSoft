@@ -75,74 +75,119 @@
             </div>
         </header>
     <header>
-      <nav class="primary-nav">
-        <a href="#" class="logo"><img src="image/logo.png" alt="" /></a>
-        <div class="search-bar">
-          <form>
-            <select name="All Categories" id="Categories-select">
-              <option value="All-categories">All Categories</option>
-              <option value="T-Shirt">T-Shirt</option>
-              <option value="Jeans">Jeans</option>
-            </select>
-            <input
-              type="text"
-              placeholder="What products are you looking for?"
-            />
-            <button type="submit">
-              <a href="#" class="bx-bx-search">
-                <img src="image/search-logo.png" alt="" />
-              </a>
-            </button>
-          </form>
+      <div class="body-header">
+        <!-- INFO-BODY-HEADER -->
+        <div class="body-info">
+            <div class="main-content">
+                <!-- LOGO -->
+                <div class="logo">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <h2 class="logo-title">SURUCHI</h2>
+                </div>
+                <!-- SEARCHING -->
+                <div class="searching">
+                    <div class="all">
+                        <p>All Categories</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="search">
+                        Keyword here . . .
+
+                    </div>
+                    <button class="btn">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <!-- INFO -->
+                <div class="info-settings">
+                    <div class="acount">
+                        <i class="fa-regular fa-user"></i>
+                        <p>My Account</p>
+                    </div>
+                    <div class="wish">
+                        <div class="noti-wish">
+                            <i class="fa-regular fa-heart"></i>
+                            <span class="badge">02</span>
+                        </div>
+                        <p>Wish List</p>
+                    </div>
+                    <div class="cart">
+                        <div class="noti-cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="badge">02</span>
+                        </div>
+                        <p>My cart</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <nav class="nav-user">
-          <div class="user-account">
-            <a href="#"><img src="image/user.png" alt="" /></a>
-            <a href="#">My Account</a>
-          </div>
-          <div class="user-wish-list">
-            <a href="#"><img src="image/heart.png" alt="" /></a>
-            <a href="#">Wish List</a>
-          </div>
-          <div class="user-cart">
-            <a href="#"><img src="image/cart.png" alt="" /></a>
-            <a href="#">My Cart</a>
-          </div>
-        </nav>
-      </nav>
 
-      <nav class="secondary-nav">
-        <ul class="navmenu">
-          <li>
-            <select name="" id="">
-              <option value="home-select">Home</option>
-            </select>
-          </li>
-          <li>
-            <select name="" id="">
-              <option value="shop-select">Shop</option>
-            </select>
-          </li>
-          <li><a href="#">About US</a></li>
-          <li>
-            <select name="" id="">
-              <option value="blog-select">Blog</option>
-            </select>
-          </li>
-          <li><a href="#">Categories</a></li>
-          <li>
-            <select name="" id="">
-              <option value="pages-select">Page</option>
-            </select>
-          </li>
+      <div class="body-nav">
+                <div class="main-content">
+                    <!-- NAV-LIST -->
+                    <div class="nav-list">
+                        <ul>
+                            <li>
+                                <a href="#!">
+                                    Home
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </li>
 
-          <li><a href="#">Contact</a></li>
-        </ul>
+                            <li>
+                                <a href="#!">
+                                    Shop
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </li>
 
-        <div class="special-offer">
-          <img src="image/bulb.png" alt="" />
-          <p>Special up to 60% Off all item</p>
+                            <li>
+                                <a href="#!">
+                                    About Us
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#!">
+                                    Blog
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#!">
+                                    Categories
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#!">
+                                    Page
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#!">
+                                    Contact
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <!-- NAV-INFO -->
+                    <div class="nav-info">
+                        <i class="fa-regular fa-lightbulb"></i>
+                        <p class="desc">Special up to 60% Off all item</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        
       </nav>
     </header>
 
@@ -158,7 +203,7 @@
           Collection 2022
         </h1>
         <br>
-        <p>Up To 40% Off Final Sale Items. <br />Caught in the Moments</p>
+        <p class="main-text-desc">Up To 40% Off Final Sale Items. <br />Caught in the Moments</p>
         <button>Show Collection &rarr;</button>
       </div>
       
@@ -211,8 +256,8 @@
       </div>
     </section>
 
-    <div>
-      <h1>New Products</h1>
+    <div class="intro-product">
+      <h1 class="intro-title">New Products</h1>
       <p class="title-underline" align="center">
         &#9673;
       </p>
@@ -569,7 +614,7 @@
     </div>
 
     <div>
-      <h1>Our Best Seller</h1>
+      <h1 class="best-seller-title">Our Best Seller</h1>
       <p class="title-underline" align="center">
         &#9673;
       </p>
@@ -754,8 +799,8 @@
 
     </section>
 
-    <div>
-      <h1>Our Clients Say</h1>
+    <div >
+      <h1 class="client-title">Our Clients Say</h1>
       <p class="title-underline" align="center">
         &#9673;
       </p>
@@ -856,162 +901,14 @@
     </div>
 
     <div>
-      <h1>From The Blog</h1>
+      <h1 class="blog-title">From The Blog</h1>
       <p class="title-underline" align="center">
         &#9673;
       </p>
       
     </div>
 
-    <section class="best-seller">
-      
-      <section class="products" id="products-1">
-        
-        <div class="products-image">
-          <a href="#">
-            
-          </a>
-          <p class="products-flag">Sale</p>
-        </div>
-        <div class="products-info">
-          <p class="products-type">Jacket, Women</p>
-          <h4 class="products-name">Oversize Cotton Dress</h4>
-          <p class="products-price">$110 - <span style="text-decoration-line: line-through;">$78</span></p>
-          <div class="review-stars">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-
-          <div class="products-button">
-            <button><i class='bx bx-cart'></i>+ Add to Cart</button>
-            <button><i class='bx bx-heart' ></i></button>
-            <button><i class="fa fa-eye"></i></button>
-          </div>
-        </div>
-
-      </section>
-
-      <section class="products" id="products-2">
-        
-        <div class="products-image">
-          <a href="#">
-            
-          </a>
-          <p class="products-flag">Sale</p>
-        </div>
-        <div class="products-info">
-          <p class="products-type">Jacket, Women</p>
-          <h4 class="products-name">Oversize Cotton Dress</h4>
-          <p class="products-price">$110 - <span style="text-decoration-line: line-through;">$78</span></p>
-          <div class="review-stars">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-
-          <div class="products-button">
-            <button><i class='bx bx-cart'></i>+ Add to Cart</button>
-            <button><i class='bx bx-heart' ></i></button>
-            <button><i class="fa fa-eye"></i></button>
-          </div>
-        </div>
-
-      </section>
-
-      <section class="products" id="products-3">
-        
-        <div class="products-image">
-          <a href="#">
-            
-          </a>
-          <p class="products-flag">Sale</p>
-        </div>
-        <div class="products-info">
-          <p class="products-type">Jacket, Women</p>
-          <h4 class="products-name">Oversize Cotton Dress</h4>
-          <p class="products-price">$110 - <span style="text-decoration-line: line-through;">$78</span></p>
-          <div class="review-stars">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-
-          <div class="products-button">
-            <button><i class='bx bx-cart'></i>+ Add to Cart</button>
-            <button><i class='bx bx-heart' ></i></button>
-            <button><i class="fa fa-eye"></i></button>
-          </div>
-        </div>
-
-      </section>
-
-      <section class="products" id="products-4">
-        
-        <div class="products-image">
-          <a href="#">
-            
-          </a>
-          <p class="products-flag">Sale</p>
-        </div>
-        <div class="products-info">
-          <p class="products-type">Jacket, Women</p>
-          <h4 class="products-name">Oversize Cotton Dress</h4>
-          <p class="products-price">$110 - <span style="text-decoration-line: line-through;">$78</span></p>
-          <div class="review-stars">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-
-          <div class="products-button">
-            <button><i class='bx bx-cart'></i>+ Add to Cart</button>
-            <button><i class='bx bx-heart' ></i></button>
-            <button><i class="fa fa-eye"></i></button>
-          </div>
-        </div>
-
-      </section>
-
-      <section class="products" id="products-5">
-        
-        <div class="products-image">
-          <a href="#">
-            
-          </a>
-          <p class="products-flag">Sale</p>
-        </div>
-        <div class="products-info">
-          <p class="products-type">Jacket, Women</p>
-          <h4 class="products-name">Oversize Cotton Dress</h4>
-          <p class="products-price">$110 - <span style="text-decoration-line: line-through;">$78</span></p>
-          <div class="review-stars">
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-          </div>
-
-          <div class="products-button">
-            <button><i class='bx bx-cart'></i>+ Add to Cart</button>
-            <button><i class='bx bx-heart' ></i></button>
-            <button><i class="fa fa-eye"></i></button>
-          </div>
-        </div>
-
-      </section>
-      
-      
-    </section>
+    
 
     <div class="blog-item">
       <div class="main-content">
