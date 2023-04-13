@@ -384,13 +384,16 @@ a {
   color: black;
 }
 
-.main-text button {
+.main-text-button {
   color: #fff;
   margin: 15px 10px;
   padding: 1vh 1vw;
   background: rgb(248, 44, 92);
   border: none;
   border-radius: 4px;
+}
+.main-text-button:hover {
+  cursor: pointer;
 }
 
 /* discount notice */
@@ -409,6 +412,10 @@ a {
   box-sizing: border-box;
 }
 
+.discount-view:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 .discount-notice div {
   padding: 20px;
 
@@ -512,7 +519,10 @@ h1 {
   background: none;
   border: none;
 }
-
+.new-product-nav button:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
 .new-product {
   width: 100vw;
   height: 100vh;
@@ -548,6 +558,10 @@ h1 {
   height: 70%;
   background-size: cover;
   background-position: center;
+  transition: transform 0.5s ease;
+}
+.products-image:hover {
+  transform: scale(0.75);
 }
 
 .products-flag {
@@ -611,6 +625,10 @@ h1 {
   display: flex;
 
   gap: 15px;
+}
+.products-button button:hover {
+  background-color: var(--primary-color);
+  color: #fff;
 }
 .products-button button:first-child {
   display: flex;
@@ -783,6 +801,11 @@ i.fa-eye {
   background-color: rgb(248, 44, 92);
   border: none;
   color: #fff;
+}
+.good-deal-button:hover {
+  cursor: pointer;
+  background-color: var(--primary-text-color);
+  color: var(--primary-color);
 }
 .good-deal-button i {
   color: #fff;
@@ -1000,6 +1023,11 @@ i.fa-eye {
   background-color: rgb(248, 44, 92);
   border: none;
   color: #fff;
+}
+.recommendation-button:hover {
+  cursor: pointer;
+  background-color: var(--primary-text-color);
+  color: var(--primary-color);
 }
 .recommendation-button i {
   color: #fff;
