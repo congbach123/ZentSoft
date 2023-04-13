@@ -1051,6 +1051,12 @@ i.fa-eye {
   object-fit: cover;
   margin-bottom: 15px;
 }
+.blog-list .item img {
+  transition: transform 0.5s ease;
+}
+.blog-list .item img:hover {
+  transform: scale(0.9);
+}
 
 .blog-item .item .intro {
   color: var(--primary-text-color);
